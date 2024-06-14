@@ -1,0 +1,87 @@
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .homepage-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 40px;
+   
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0033cc;
+    padding-left:20px;
+  }
+  
+  .navigation a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .navigation a:hover {
+    text-decoration: underline;
+  }
+  
+  .request-demo-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .request-demo-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .main-content {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .text-section {
+    max-width: 600px;
+    margin-right: 50px;
+  }
+  
+  .text-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .text-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .upload-resume-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upload-resume-button:hover {
+    background-color: #45a049;
+  }
+  
+  .image-section img {
+    width: 600px;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
