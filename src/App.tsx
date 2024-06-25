@@ -47,6 +47,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import UploadPage from './UploadPage.js';
 import ResponsePage from './ResponsePage.js';
 import HomePage from './HomePage';
+import VehiclePolicyDetails from './VehiclePolicyDetails.js';
 import './App.css';
 
 function App() {
@@ -56,6 +57,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/upload" element={<UploadPage />} />
         <Route path="/response" element={<ResponsePage />} />
+        <Route path="/ask-us" element={<VehiclePolicyDetails />} />
       </Routes>
     </Router>
   );
