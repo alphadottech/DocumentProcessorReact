@@ -34,10 +34,11 @@
   .request-demo-button {
     background-color: #007bff;
     color: white;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-right: 10px;
   }
   
   .request-demo-button:hover {

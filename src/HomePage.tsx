@@ -9,7 +9,9 @@ const HomePage: React.FC = () => {
   const handleUploadButtonClick = () => {
     navigate('/upload');
   };
-
+  const handleQueriesButtonClick = () => {
+    navigate('/ask-us');
+  };
   return (
     <div className="homepage-container">
       <header className="homepage-header">
@@ -23,6 +25,7 @@ const HomePage: React.FC = () => {
           <a href="#pricing">Pricing</a>
           <a href="#login">Login</a> */}
           <button className="request-demo-button" onClick={handleUploadButtonClick}>Upload Resume</button>
+          <span style={{cursor:'pointer'}} onClick={handleQueriesButtonClick}>HR Queries?</span>
         </nav>
       </header>
       <main className="main-content">
